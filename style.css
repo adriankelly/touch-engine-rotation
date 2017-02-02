@@ -1,0 +1,42 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  -ms-box-sizing: border-box;
+  font: sans-serif;
+
+}
+
+html,
+body {
+  background-color: #000;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+#introcontainer {
+  opacity: 1;
+  position: absolute;
+  left: 0; top: 0; right: 0; bottom: 0;
+
+}
+#vid-forward,
+#vid-reverse {
+  width: 100%;
+  height: 100%;
+}
+
+#reversecontainer {
+  opacity: 0;
+  position: absolute;
+  left: 0; top: 0; right: 0; bottom: 0;
+}
